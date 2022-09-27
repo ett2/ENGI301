@@ -39,11 +39,17 @@ Simple calculator that will
   - Perform the mathematical operation and provide the number to the user
   - Repeat
 
+Supports both Python 2 and Python 3
+
 Operations:
   - addition
   - subtraction
   - multiplication
   - division
+  - right shift
+  - left shift
+  - modulo
+  - exponentiation
 
 Error conditions:
   - Invalid operator --> Program should exit
@@ -156,4 +162,4 @@ if __name__ == "__main__":
             num2 = int(num2)
             
         print(func(num1, num2))
-        break
+        #break
